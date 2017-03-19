@@ -19,8 +19,11 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "history": "^3.0.0",
-    "react": "^15.3.0",
-    "react-dom": "^15.3.0",
-    "react-router-dom": "^4.0.0-beta.6"
+    "react": "https://registry.npmjs.org/react/-/react-15.4.2.tgz",
+    "react-addons-css-transition-group": "^15.4.2",
+    "react-addons-transition-group": "^15.4.2",
+    "react-dom": "https://registry.npmjs.org/react-dom/-/react-dom-15.4.2.tgz",
+    "react-router-dom": "^4.0.0-beta.6",
+    "reactstrap": "^4.3.0"
   }
 }
