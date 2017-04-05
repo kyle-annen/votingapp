@@ -1,0 +1,33 @@
+/* SCSS declarations go here */
+@import '../node_modules/muicss/lib/sass/mui.scss';
+
+Header a.active {
+  font-weight: bold;
+}
+Header a, #login-buttons a {
+  text-decoration: none;
+  margin-right: 10px;
+  color:inherit;
+}
+
+#login-sign-in-link {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#login-dropdown-list {
+	position: absolute;
+	z-index: 1000;
+	background-color: white;
+	border: 1px solid lightgray;
+	width: 300px;
+	margin-top: -20px;
+	margin-left: -240px;
+	padding: 10px;
+}
+
+#login-close-text {
+	font-weight: bold;
+}
+
+
